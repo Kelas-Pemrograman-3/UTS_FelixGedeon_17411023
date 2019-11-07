@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="inputdata.css">
+    <title>InputData</title>
+   
+</head>
+<nav>
+        <ul>
+            <li>
+                <a>PROFIL</a>
+            </li>
+            <li>
+                <a>INPUT DATA</a>
+                <ul>
+                    <li>
+                        <a>Data Mahasiswa</a>
+                    </li>
+                    <li>
+                        <a>Data Dosen</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            <li>
+                <a>TABEL</a>
+            </li>
+            <li>
+                <a>ABOUT</a>
+            </li>
+            <li>
+                <a>LOGOUT</a>
+            </li>
+        </ul>
+    </nav>
+<body>
+    <div class="kotak">    
+    <img src="/clipboard-with-pencil-.png" class="user">
+    <h2>INPUT DATA</h2>
+    <form>
+    <table class="tabel">
+        <thead>
+        <tr>
+            <th>NPM</th>
+            <td><input type="text" placeholder="NPM" name="namalengkap"></input> </input></td>
+        </tr>
+        <tr>
+            <th>Nama Lengkap</th>
+            <td><input type="text" placeholder="Nama Lengkap" name="username"></input></td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input type="text" placeholder="Email" name="email"></input> </input></td>
+        </tr>
+        <tr>
+            <th>No Handphone</th>
+            <td><input type="number" placeholder="No Handphone" name="nohandphone"></input> </input></td>
+        </tr>
+        <tr>
+            <th>Prodi</th>
+            <td>
+                <select class="button-danger">
+                    <option class= "button-utama"value="Pilih">Pilih Prodi</option>
+                    <option class= "button-utama"value="Sistem Informasi">Sistem Informasi</option>
+                    <option class= "button-utama"value="Informatika">Informatika</option>
+                    <option class= "button-utama"value="Akuntasi">Akuntasi</option>
+                    <option class= "button-utama"value="Hukum">Hukum</option>
+                    <option class= "button-utama"value="Ekonomi">Ekonomi</option>
+                    <option class= "button-utama"value="IlmuKomputer">Ilmu Komputer</option>
+                </select>
+            </td>
+        </tr>
+        </thead>
+    </table>
+    
+    <h3>Jenis Kelamin</h3>
+    <input class="lakilaki" type="radio" value="Laki-Laki" name="jeniskelamin" >Laki-Laki</input>
+    <img src="/mars.png" class="male">
+    <input class="perempuan" type="radio" value="Perempuan" name="jeniskelamin">Perempuan</input>
+    <img src="/female.png" class="female"><br>
+
+    <h3>Alamat</h3>
+    <textarea class="kotak1"name="alamat" cols="45" rows="6" placeholder="Masukkan alamat anda"></textarea> <br><br>
+    <input type="checkbox">Saya Mengisi Dengan Benar</input> <br><br>
+    <input class= "button-utama" type="Input" value="Input"></input>
+    <input class= "button-utama" type="TABLE" value="TABLE"></input>
+</div>
+</form> 
+
+</body>
+</html>
